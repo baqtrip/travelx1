@@ -1,0 +1,33 @@
+.cover {
+    margin: 92px auto 0;
+    background-image: url('../../images/__background.png');
+    background-size: cover;
+    height: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1184px;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover {
+        margin: 90px 0 0 0;
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover {
+        margin: 66px 0 0 0;
+        max-width: 320px;
+    }
+}

@@ -1,0 +1,13 @@
+.place__links {
+    box-sizing: border-box;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: flex-end;
+}
+
+@media (max-width: 620px) {
+    .place__links {
+        padding: 0 16px;
+        align-self: flex-start;
+    }
+}

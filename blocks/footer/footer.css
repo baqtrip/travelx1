@@ -1,0 +1,33 @@
+.footer {
+    margin: 92px auto 0;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+        margin: 92px 48px 0 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin: 88px 24px 0 24px;
+        max-width: 720px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .footer {
+        flex-direction: column;
+        margin: 64px 16px 0 16px;
+        max-width: 186px;
+        gap: 48px;
+    }
+}

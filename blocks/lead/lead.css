@@ -1,0 +1,38 @@
+.lead {
+    width: 100%;
+    height: 100%;
+    max-width: 1184px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 56px auto 0;
+    max-width: 984px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        margin: 48px auto 0;
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1010px) {
+    .lead {
+        margin: 48px 0 0 0;
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead {
+        margin: 48px 0 0 0;
+        max-width: 320px;
+    }
+}

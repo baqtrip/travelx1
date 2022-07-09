@@ -1,0 +1,23 @@
+.cover__link {
+    text-decoration: none;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cover__link::before {
+    content: "";
+    background: #2a2c2f center no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .3;
+    transition: all 0.4s ease 0s;
+}
+
+.cover__link:hover::before {
+    opacity: 0.8;
+}

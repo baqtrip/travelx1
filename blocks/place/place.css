@@ -1,0 +1,31 @@
+.place {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 46.74% 49.18%;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 48px 28px;
+    align-items: flex-start;
+    color: #fff;
+}
+
+@media (max-width: 1086px) {
+    .place {
+        grid-template-columns: 47.41% 49.13%;
+    }
+}
+
+@media (max-width: 859px) {
+    .place {
+        grid-template-columns: 47.22% 48.88%;
+    }
+}
+
+@media (max-width: 620px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}
