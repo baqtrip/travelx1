@@ -4,6 +4,7 @@
     width: 100%;
     max-width: 986px;
     font-family: 'Inter', Arial, sans-serif;
+
 }
 
 .intro .wrapper {
@@ -12,12 +13,12 @@
 }
 
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .intro {
         max-width: 690px;
         margin: 92px 0 0 48px;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .intro {

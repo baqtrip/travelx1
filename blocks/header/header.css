@@ -5,14 +5,17 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     max-width: 1184px;
+    padding: 0 40px 0;
+    box-sizing: border-box;
 }
 
-@media (max-width: 1024px) {
+
+/* @media (max-width: 1024px) {
     .header {
         max-width: 928px;
-        margin: 28px 0 0 48px;
+        margin: 28px 48px 0 48px;
     }
-}
+} */
 
 
 @media (max-width: 768px) {
