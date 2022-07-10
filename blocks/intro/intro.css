@@ -7,27 +7,8 @@
 
 }
 
-.intro .wrapper {
-    max-width: 984px;
-    align-items: start;
-}
-
-
-/* @media (max-width: 1024px) {
-    .intro {
-        max-width: 690px;
-        margin: 92px 0 0 48px;
-    }
-} */
 
 @media (max-width: 768px) {
-    .intro {
-        max-width: 720px;
-        margin: 88px 24px 0 24px;
-    }
-}
-
-@media (max-width: 767px) {
     .intro {
         max-width: 720px;
         margin: 88px auto;

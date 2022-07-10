@@ -53,5 +53,5 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__links-box/footer__links-box.css');
 /*footer*/
-
+@import url('../blocks/figure/figure.css');
 @import url('../blocks/place/__links/place__links.css');

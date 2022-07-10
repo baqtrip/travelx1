@@ -1,4 +1,4 @@
-header {
+.header {
     font-family: 'Inter', Arial, sans-serif;
     margin: 28px auto 0;
     display: flex;
@@ -23,6 +23,5 @@ header {
     .header {
         max-width: 287px;
         margin: 16px 16px 0;
-        padding: 0;
     }
 }

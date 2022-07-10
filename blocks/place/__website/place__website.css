@@ -5,3 +5,7 @@
     line-height: 1.22;
     color: #fff;
 }
+
+.place__website:hover {
+    opacity: 50%;
+}
