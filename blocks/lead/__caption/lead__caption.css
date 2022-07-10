@@ -12,12 +12,6 @@
     margin-top: 8px;
 }
 
-@media (max-width: 768px) {
-    .lead__caption {
-        margin: 8px 0 0 16px;
-    }
-}
-
 @media (max-width: 320px) {
     .lead__caption {
         font-size: 10px;

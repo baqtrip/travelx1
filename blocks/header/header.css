@@ -9,6 +9,12 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 1280px) {
+    .header {
+        padding: 0;
+        margin: 28px 48px 0 48px;
+    }
+}
 
 @media (max-width: 768px) {
     .header {

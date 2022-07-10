@@ -7,11 +7,19 @@
 
 }
 
+@media (max-width: 1024px) {
+    .intro {
+        max-width: 690px;
+        margin: 92px auto 0 48px;
+    }
+}
+
 
 @media (max-width: 768px) {
     .intro {
         max-width: 720px;
         margin: 88px auto;
+        padding: 0;
     }
 }
 
