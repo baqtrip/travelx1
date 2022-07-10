@@ -8,10 +8,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-
-
-
-
 html {
   line-height: 1.15;
   /* 1 */
@@ -19,18 +15,8 @@ html {
   /* 2 */
 }
 
-li {
-  list-style-type: none;
-}
-
 /* Sections
    ========================================================================== */
-
-
-p {
-  margin: 0;
-}
-
 
 /**
  * Remove the margin in all browsers.
@@ -52,11 +38,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-
-ul {
-  padding: 0;
-}
-
 
 h1 {
   font-size: 2em;
