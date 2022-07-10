@@ -6,7 +6,6 @@
     align-items: flex-end;
     max-width: 1184px;
     padding: 0 40px 0;
-    box-sizing: border-box;
 }
 
 @media (max-width: 1280px) {
