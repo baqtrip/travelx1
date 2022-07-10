@@ -15,9 +15,11 @@
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
 @import url('../blocks/lead/__title/lead__title.css');
 @import url('../blocks/header/__link/_active/header__link_active.css');
+@import url('../blocks/lead/__figure/lead__figure.css');
 /*Lead*/
 /*intro*/
-@import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__list-number/intro__list-number.css');
+@import url('../blocks/intro/__list-text/intro__list-text.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/intro.css');
@@ -53,5 +55,4 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__links-box/footer__links-box.css');
 /*footer*/
-@import url('../blocks/figure/figure.css');
 @import url('../blocks/place/__links/place__links.css');
